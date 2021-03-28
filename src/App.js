@@ -1,7 +1,7 @@
-import './App.css';
-import Alert from "./Components/Alert/Alert";
-import Button from "./Components/UI/Button/Button";
-import {useState} from "react";
+import './App.css'
+import Alert from './Components/Alert/Alert'
+import Button from './Components/UI/Button/Button'
+import {useState} from 'react'
 
 function App() {
   const initialState = {type: null, text: ''}
