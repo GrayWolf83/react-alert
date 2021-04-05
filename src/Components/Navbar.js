@@ -1,7 +1,19 @@
+import {NavLink} from "react-router-dom";
+
 export const Navbar = () => {
     return (
-        <div className="navbar">
-            <h1>Navbar</h1>
-        </div>
+        <nav className="navbar navbar-light bg-light navbar-expand-lg">
+            <div className="navbar-brand">
+                React alert
+            </div>
+            <ul className="navbar-nav">
+                <li className="nav-item">
+                    <NavLink exact to="/" className="nav-link">Главная</NavLink>
+                </li>
+                <li className="nav-item">
+                    <NavLink to="/about" className="nav-link">Информация</NavLink>
+                </li>
+            </ul>
+        </nav>
     )
 }
